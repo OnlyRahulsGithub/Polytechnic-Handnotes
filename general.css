@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+body{
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-family: 'Josefin Sans', sans-serif;
+  
+  }
+  /* for logo text color */
+  
+  heading>p{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
+
+  footer{
+    text-align: center;
+    color: white;
+  }
+  
+  .semester-tag{
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    color: white;
+    text-align: center;
+  }
+
+  .logostyle{
+    height: 40px;
+    width: auto;
+}
+  .content-box{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 7.5vh;
+  }
+  
+  
+  .card-title{
+    height: 12vh;
+  }
+  
+  .card-img-top{
+    height: 30vh;
+    width: auto;
+  }
+  
+  
+
+.navbar-nav .dropdown-menu{
+    background-color: #a0aeff;
+}
+
+.navbar-toggler{
+    color: rgb(231, 223, 223) !important;
+    background-color: #a0aeff;
+}
+
+/* for getting both logo and navbar options in same line  */
+@media  screen and (max-width:400px) {
+    .logostyle{
+        height: 20px;
+        width: auto;
+    }
+    .navbar-brand{
+      font-size: small;
+    }
+    .navbar-toggler-icon{
+      height: 1.2rem;
+      width: 1.2rem;
+    }
+    .navbar-toggler{
+      padding: 0.3rem 0.3rem;
+    }
+    
+  }
+
+
+/* for shifting nav item to the right for laptop/desktop screens  */
+@media screen and (min-width: 768px) {
+    .navbar-collapse{
+        flex-grow: unset !important;
+    } 
+}
+
+/* for every card's: border, dark mode */
+.card{
+    background-color: black;
+    color: rgb(231, 223, 223);
+    border: 1px solid rgb(231, 223, 223);
+}
+
+.btn-primary{
+    background-color: #a0aeff;
+    color: black;
+}
+
+
+/* .navbar>.container-fluid{
+    flex-wrap: nowrap;
+} */
+
+.nav-link.active{
+    color: #a0aeff !important;
+}
+.nav-link{
+    color: rgb(243, 243, 243) !important;
+}
+.nav-link:hover{
+    color: #bdc0cf !important;
+    text-shadow: 2px 2px 8px  #a0aeff;
+}

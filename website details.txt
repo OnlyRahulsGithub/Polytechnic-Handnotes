@@ -1,2 +1,0 @@
-1. Primary color: Bluish rgb(3, 117, 153); hex: #037599;
-2. Dark themed

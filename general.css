@@ -7,6 +7,25 @@ body{
   }
   /* for logo text color */
   
+  /* Responsive slider for mobiles */
+  @media screen and (max-width:425px){
+      #carouselExampleCaptions{
+        height: 40vh;
+        width: auto;
+      }
+      
+      .carousel-inner{
+        height: inherit;
+        width: auto;
+      }
+
+      .carousel-inner img {
+        width: 100%;
+        height: auto !important;
+    }
+  }
+
+
   heading>p{
     color: white;
     text-align: center;
